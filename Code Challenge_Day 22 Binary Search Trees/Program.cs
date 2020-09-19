@@ -7,7 +7,6 @@ namespace Code_Challenge_Day_22_Binary_Search_Trees
         static int GetHeight(Node root)
         {
             return (root == null) ? -1 : Math.Max(1+ GetHeight(root.left), 1+GetHeight(root.right));
-
         }
 
         static Node insert(Node root, int data)
