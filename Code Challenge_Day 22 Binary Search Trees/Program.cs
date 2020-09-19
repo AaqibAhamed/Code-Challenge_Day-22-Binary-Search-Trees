@@ -4,9 +4,10 @@ namespace Code_Challenge_Day_22_Binary_Search_Trees
 {
     class Program
     {
-        static int getHeight(Node root)
+        static int GetHeight(Node root)
         {
-            //Write your code here
+            return (root == null) ? -1 : Math.Max(1+ GetHeight(root.left), 1+GetHeight(root.right));
+
         }
 
         static Node insert(Node root, int data)
@@ -40,7 +41,7 @@ namespace Code_Challenge_Day_22_Binary_Search_Trees
                 int data = Int32.Parse(Console.ReadLine());
                 root = insert(root, data);
             }
-            int height = getHeight(root);
+            int height = GetHeight(root);
             Console.WriteLine(height);
 
         }

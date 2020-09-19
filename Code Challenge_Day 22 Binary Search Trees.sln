@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code Challenge_Day 22 Binary Search Trees", "Code Challenge_Day 22 Binary Search Trees\Code Challenge_Day 22 Binary Search Trees.csproj", "{F868C807-7A42-4E1F-ACE5-6A64FF6F0BDD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary Search Trees", "Code Challenge_Day 22 Binary Search Trees\Binary Search Trees.csproj", "{F868C807-7A42-4E1F-ACE5-6A64FF6F0BDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
